@@ -18,18 +18,31 @@ public class JAVA_D1 {
      */
     public static void main(String[] args) {
         
-        System.out.println("Hello!");
+        // System.out.println("Enter your name: ");
         
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         
-        int a = 4;
-        a = 6;
-        String simboli = "aa" + "bb";
+        // int a = 4;
+        // a = 6;
+        // String simboli = "aa" + "bb";
         
-        simboli = sc.nextLine();
+        // simboli = sc.nextLine();
         
+        // System.out.println(sc);
         
+        vardaIevade();
         // TODO code application logic here
     }
     
+    private static void vardaIevade (){
+        
+        Scanner fluffyUnicorn = new Scanner(System.in);
+        
+        System.out.println("Ievadi savu vaardu: ");
+        
+        String ievade = fluffyUnicorn.nextLine();
+        
+        System.out.println("Sveiki, " + ievade);
+        
+    }
 }
